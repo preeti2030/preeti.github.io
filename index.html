@@ -13,16 +13,10 @@
         h.parentNode.insertBefore(s,h);
     })(window,document);
   </script>
- <script type="text/javascript">
-        // select the target node
-        window.PushCrewCountries={uk:{code:"9224e60a019578036bc3b6ed35086734",closeBtn:"Deny Notifications",allowBtn:"Allow Notifications",popupText:"I have read Timberland's \x3ca href\x3d'https://www.timberland.co.uk/customer-service/privacy-policy.html' target\x3d'_blank'\x3e Privacy Policy \x3c/a\x3e and I consent to the processing of my personal data for marketing and profiling purpose."},it:{code:"9f77a9321f55aeb1497d3490abf3e735",closeBtn:"Blocca le notifiche",allowBtn:"Consenti notifiche",popupText:"Ho letto \x3ca href\x3d'https://www.timberland.it/customer-service/privacy-policy.html' target\x3d'_blank'\x3el'informativa sulla Privacy\x3c/a\x3e di Timberland ed acconsento al trattamento dei miei dati personali per scopi di marketing e profilazione."},
-nl:{code:"a5622aa241021e63b833fdd0ed332a97",closeBtn:"Meldingen Weigeren",allowBtn:"Meldingen Toestaan",popupText:"Ik heb het \x3ca href\x3d'https://www.timberland.nl/klantenservice/privacybeleid.html' target\x3d'_blank'\x3ePrivacybeleid\x3c/a\x3e van Timberland gelezen en ik geef toestemming voor het verwerken van mijn persoonsgegevens voor marketing- en profileringsdoeleinden."},de:{code:"277892579e102f948a9d07d6b4f5ae15",closeBtn:"Verwehren",allowBtn:"Zulassen",popupText:"Ich habe die \x3ca href\x3d'https://www.timberland.de/kundenservice/datenschutzrichtlinie.html' target\x3d'_blank'\x3eDatenschutzrichtlinie\x3c/a\x3e von Timberland gelesen und ich stimme der Verarbeitung meiner personenbezogenen Daten zu Marketing- und Profiling-Zwecken zu."}};
-window.PCCountry="undefined"!==typeof window.PushCrewCountries[google_tag_manager["GTM-NMGVF9"].macro(560)]?window.PushCrewCountries[google_tag_manager["GTM-NMGVF9"].macro(595)]:country.uk;
-(function(b,a,c,d){try{b._pcq=b._pcq||[],b._pcq.push(["_currentTime",Date.now()]),c=a.createElement("script"),c.type="text/javascript",c.async=!0,c.src="https://cdn.pushcrew.com/js/"+window.PCCountry.code+".js",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}catch(e){b="Push Crew - "+e,dataLayer.push({event:"tagError",tagName:b}),console.log(b)}})(window,document);
-var target=document.querySelector("body"),observer=new MutationObserver(function(b){b.forEach(function(a){a.addedNodes&&a.addedNodes.length&&(a=a.addedNodes[0],a.classList&&a.classList.contains("pushcrew-chrome-style-notification")&&a.classList.contains("pushcrew-chrome-style-notification-safari")&&document.querySelector(".pushcrew-notification-message-safari")&&(a=document.querySelector(".pushcrew-chrome-style-notification"),a.querySelector(".pushcrew-btn-close").innerHTML=window.PCCountry.closeBtn,
-a.querySelector(".pushcrew-btn-allow").innerHTML=window.PCCountry.allowBtn,a.querySelector(".pushcrew-notification-message-safari").innerHTML=window.PCCountry.popupText,observer.disconnect()))})}),config={attributes:!0,childList:!0,characterData:!0};observer.observe(target,config);
-</script>
-
+ <script>
+   window._pcq = window._pcq || [];
+_pcq.push(['triggerPreferences']);
+   </script>
 
     Example for custom script
 </body>
